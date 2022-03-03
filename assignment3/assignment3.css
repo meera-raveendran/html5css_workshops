@@ -1,0 +1,29 @@
+.img{
+    max-width: 500px;
+    max-height:500px;
+    
+}
+.master{
+    border: 1px solid red;
+    display: flex;
+    gap: 100px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+}
+h2{
+    color: blue;
+    
+}
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
