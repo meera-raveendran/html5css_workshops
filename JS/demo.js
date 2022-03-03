@@ -1,0 +1,11 @@
+console.log("welcome to javascript");
+console.error("ayaan vishnu");
+console.table(["hello_1","hello_2","hello_3"]);
+console.log(10+10);
+console.log("10"+10);
+console.log(10-"10");
+console.log("10"-"10");
+console.log(10/"10");
+console.log(10*"10");
+console.log(10/"0");
+console.log(10/"A");

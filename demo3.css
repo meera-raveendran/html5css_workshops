@@ -1,0 +1,52 @@
+.header{
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    border: 1px solid red;
+}
+.leftnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    border: 1px solid black;
+    width: 30%;
+;
+}
+a{
+    display: block;
+    background-color: red;
+    border: 1px solid black;
+    width:30%;
+    padding:10px;
+    margin: 10px;
+    text-decoration: none;
+
+
+}
+.common{
+    
+    display: flex;
+    
+
+}
+.content{
+   border: 1px solid black;
+   width:60%;
+   text-align: center;
+   
+}
+.rightnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 1px solid black;
+    width: 30%;
+}
+.footer{
+    border: 1px solid black;
+   width:100%;
+   text-align: center;
+
+}

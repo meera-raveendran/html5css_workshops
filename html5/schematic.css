@@ -1,0 +1,25 @@
+.class_1{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 100vh;
+}
+header{
+    background-color:#203040;
+    text-align: center;
+    grid-area:"header";
+    color:white;
+}
+main{
+    text-align: center;
+    grid-area:"menu";
+    margin-top: 200px ;
+
+}
+footer{
+    background-color:#203040;
+    text-align: center;
+    grid-area:"footer";
+    color:white;
+}

@@ -1,0 +1,61 @@
+.parent{
+    border: 1px solid red;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    border: 1px solid red;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.master{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    height: 15vh;
+    margin: 10px;
+    align-items: center;
+
+}
+footer{
+    text-align:center;
+    height: 15vh;
+}
+h1{
+    color: blue;
+    margin: 0;
+}
+.my_class{
+    color: green;
+    padding: 10px;
+    font-size: 10px;
+    size: 10px;
+}
+
+.img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.imgdiv {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: center;
+}
+
+.centerdiv {
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+
+}
