@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "header","main","footer";
+            grid-template-columns: 1fr fr 1fr;
+        }
+        .divOne{
+            grid-area: header;
+            background-color: aqua;
+        }
+        .divTwo{
+            grid-area:main ;
+            background-color: aquamarine;
+
+        }
+        .divThree{
+            grid-area: footer;
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="divOne">
+        header
+    </div>
+    <div class="divTwo">
+        <div>leftmenu</div>
+        <div>body</div>
+        <div>rightmenu</div>
+
+    </div>
+    <div
+    class="divThree">
+        footer
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+        

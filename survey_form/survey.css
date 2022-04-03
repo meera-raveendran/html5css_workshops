@@ -1,0 +1,48 @@
+.form-div {
+    border: solid 3px;
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    font-size:20px;
+
+header{
+    padding: 10px;
+}
+.field_one{
+    padding: 10px;
+    margin: 10px;
+}
+legend{
+    font-size: 5em;
+    font-weight: 700;
+}
+.main_one{
+    padding: 10px;
+    margin: 10px;
+}
+label{
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.one{
+    margin: 10px;
+}
+form{
+    border: 1px solid black;
+}
+body{
+    padding: 10px;
+    margin: 10px;
+}
+.but_one{
+    background-color: red;
+    text-align: center;
+    width: 30px;
+}
+.but_two{
+    background-color: red;
+    text-align: center;
+}
